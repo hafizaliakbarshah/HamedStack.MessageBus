@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Message Bus Library is a lightweight, flexible mediator implementation for .NET applications. It provides a clean approach to implementing the mediator pattern, enabling decoupled communication between components through commands, queries, and events.
+The Message Bus Library is a lightweight, flexible in-process messaging library for .NET applications. It provides a clean approach to implementing the mediator pattern, enabling decoupled communication between components through commands, queries, and events.
 
 Key features include:
 - Command and query handling with typed responses
