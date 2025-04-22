@@ -451,7 +451,7 @@ public class LoggingMiddleware : IMessageMiddleware
 Register middleware during message bus setup:
 
 ```csharp
-services.AddMediator(builder =>
+services.AddMessageBus(builder =>
 {
     builder.UseMiddleware<LoggingMiddleware>();
     builder.UseMiddleware<ValidationMiddleware>();
@@ -506,7 +506,7 @@ foreach (var handlerType in handlersToRegisterAsScoped)
 }
 
 // Then add the mediator
-services.AddMediator();
+services.AddMessageBus();
 ```
 
 ## Best Practices
